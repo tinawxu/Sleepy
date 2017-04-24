@@ -68,6 +68,9 @@ $(".name").on('keydown', function(ev) {
 });
 counter=0;
 $(".quote").click(function (){
+    $(this).find('a').text('Tell me more');
+    $(".learn-more").fadeOut();
+    $(".quote-container").fadeIn();
     counter=counter+1;
    $(".arrow").hide();
       var line = quote[getRandomArbitrary(0,44)];
@@ -75,6 +78,9 @@ $(".quote").click(function (){
    if (counter==2) {
        $(".footer").fadeIn().delay(1000);
      }
+    $(".title").css('font-size', '60px');
+    $(".title").css('top', '50px');
 });
+
 });
 
