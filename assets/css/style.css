@@ -10,7 +10,7 @@ head, body {
 }
 
 body, html {
-	background-color: #465324;
+	background: -webkit-linear-gradient(#000B4D, #000833);
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	color: #fff;
@@ -19,20 +19,6 @@ body, html {
 }
 /*Landing Page*/
 
-#landing{
-	width: 100%;
-	height:100%;
-	background-color: white;
-}
-.landing-img{
-	position: absolute;
-	width: 250px;
-	left: calc(50% - 125px);
-    top: 32.5%;
-	transform: translate(-100%);
-	-webkit-transform: translateY(-100%);
-	margin:0 auto;
-}
 
 .title{
 	position: absolute;
@@ -44,52 +30,6 @@ body, html {
 	transition: all 0.7s;
 }
 
-.description{
-	display: block;
-	position: absolute;
-	margin-top: 100px;
-	color: #465324;
-	font-family: 'Vollkorn';
-	font-size: 25px;
-	font-weight: 400;
-	width: 700px;
-    left: calc(50% - 350px);
-    top: 40%;
-	transform: translate(-50%);
-	-webkit-transform: translateY(-50%);
-    text-align: center;
-}
-
-.links{	
-	position: absolute;
-	margin-top: 200px;
-	color: #465324;
-	font-family: 'Lato';
-	font-size: 30px;
-	font-weight: 400;
-    left: calc(50% - 450px);
-    top: 52.5%;
-	-webkit-transform: translateY(-50%);
-}
-.clickme{
-	display: inline-block;
-	margin: 50px 100px 25px 100px;
-}
-.hover{
-	opacity: 0.6;
-}
-
-.clickme button{
-	background: transparent;
-    border: none !important;
-    color: black;
-}
-.click-img{
-	width: 200px;
-	margin-left: 25px;
-}
-
-/*Quote Generator*/
 .arrow{
 	width: 225px;
 	margin-top: 10px;
@@ -109,11 +49,13 @@ body, html {
   /* width: 500px; */
   color: #fff;
   font-family: 'Lato';
+  font-weight: 500;
   padding: 15px 25px;
-  background: black;
+  background: #2196f3;
   display: inline-block;
   position: absolute;
-  bottom: 150px;
+  border-radius: 10px;
+  bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -137,8 +79,8 @@ body, html {
 	transform: translate(-50%);
 	-webkit-transform: translateY(-50%);
     text-align: left;
-	font-family: 'Vollkorn';
-	font-weight: 700;
+	font-family: 'Lato';
+	font-weight: 400;
 	font-size: 50px;
 	display: none;
 }
@@ -147,22 +89,15 @@ body, html {
 	position: absolute;
 	width: 1100px;
 	left: calc(50% - 550px);
-	top: 450px;
+	top: 475px;
 	transform: translate(-50%);
 	-webkit-transform: translateY(-50%);
 	text-align: left;
-	font-family: 'Vollkorn';
-	font-weight: 700;
-	font-size: 30px;
+	font-family: 'Lato';
+	font-weight: 400;
+	font-size: 28px;
 }
 
-.footer{
-	position: absolute;
-	display: none;
-	bottom: 25px;
-	width: 100%;
-	height: 100px;
-}
 
 .action{
 }
@@ -187,82 +122,9 @@ button{
     color: white;
     border: none;
     font-family: "Lato";
+    font-weight: 400;
     outline: 0;
 }
 
-/*Tea Guide*/
-
-.page-container{
-	background-color: #efeda3;
-	width: 100%;
-	height: 100%;
-}
-.header{
-	color:white;
-	font-size: 100px;
-	font-family: 'Lato';
-	font-weight: 900;
-	padding-top:20px;
-	text-align: center;
-}
-.instructions{
-	font-size: 26px;
-	font-family: 'Vollkorn';
-	text-align: center;	
-	padding-top: 5px;
-	cursor: default;
-}
-.tea-container{
-	position: absolute;
-	width:800px;
-	left: calc(50% - 400px);
-	height: 600px;
-	top: 200px;
-}
-.tea-type{
-	display: inline-block;
-	width: 250px;
-	height: 200px;
-}
-.tea-type button{
-	background: transparent;
-    border: none !important;
-    color: white;
-}
-.tea-icon{
-	width:150px;
-	padding-left: 55px;
-	cursor: pointer;
-}
-.tea-popup{
-	position: absolute;
-    width: 700px;
-    left: calc(50% - 350px);
-    height: 620px;
-    top: calc(50% - 260px);
-    background: #d3cfaf;
-    z-index: 100;
-    display: none;
-    cursor: default;
-}
-.tea-header{
-	font-size: 60px;
-	font-weight: 900;
-	text-align: center;
-}
-
-.teainfo{
-	height: 600px;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-top: 25px;
-}
-.exit{
-	position: absolute;
-	width: 20px;
-    left: calc(50% - 10px);
-	cursor: pointer;
-	bottom: 40px;
-}
 
 
