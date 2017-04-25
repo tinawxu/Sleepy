@@ -25,7 +25,7 @@ var quote = [
     "For sleep onset to occur, your core body temperature must drop 1 degree Celsius. In other words, it's easier to fall asleep in a cold room than a hot room.",
     "Our endogenous biological clocks don't keep a perfect 24 hour rhythm, so we rely on external cues like temperature, food and drink, and exercise to reset our circadian cycles.",
     "Every hour shifted out of your native timezone takes around one day to readjust to.",
-    "Caffeine masks the signal of adenosine, the primary neurotransmitter that controls your urge to sleep. The adenosine build upcaffeine is catalyzed by enzymes, individual is hit by accumulated adenosine",
+    "Caffeine masks the signal of adenosine, the primary neurotransmitter that controls your urge to sleep. The adenosine build-up in the brain is the reason for so-called 'caffeine crashes'.",
     ];
 
 function getRandomArbitrary(min, max) {
