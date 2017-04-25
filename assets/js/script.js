@@ -35,7 +35,7 @@ function getRandomArbitrary(min, max) {
 $(".name").on('keydown', function(ev) {
     if(ev.which === 13) {
         $(this).val('');
-        var line = quote[getRandomArbitrary(0,17)];
+        var line = quote[getRandomArbitrary(0,16)];
         $(".quote").text(line);
         return false;
     }
