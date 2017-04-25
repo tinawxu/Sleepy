@@ -9,7 +9,7 @@ $( ".clickme" ).hover(
   });
 
 var quote = [ 
-    "Sleep is crucial for immunity -- A study found that 50% weaker antibody response in sleep deprived individuals, even with plenty of recovery sleep.",
+    "Sleep is crucial for immunity -- A study found 50% weaker antibody response in sleep deprived individuals, even with plenty of recovery sleep.",
     "Sleeping pills don't actually help you sleep. Studies have shown they add very little to quality and duration of sleep compared to placebo.",
     "You actually wake up every time you end a REM cycle. You just don't remember it because it is so brief.",
     "All organisms exhibit sleep.",
