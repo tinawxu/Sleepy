@@ -9,12 +9,12 @@ $( ".clickme" ).hover(
   });
 
 var quote = [ 
-     "Sleep is crucial for immunity -- A study found 50% weaker antibody response in sleep deprived individuals, even with plenty of recovery sleep.",
+    "Sleep is crucial for immunity -- A study found 50% weaker antibody response in sleep deprived individuals, even with plenty of recovery sleep.",
     "Sleeping pills don't actually help you sleep. Studies have shown they add very little to quality and duration of sleep compared to placebo.",
     "You actually wake up every time you end a REM cycle. You just don't remember it because it is so brief.",
     "All organisms exhibit sleep.",
     "Independent evolution of REM sleep in birds and mammals suggest that REM is related to thermoregulation and metabolic regulation.",
-    "We have a biologically hardwired dip in alertness, the post-prandial dip, otherwise known as the 'afternoon slump'.",
+    "We have a biological hardwire dip in alertness, the post-prandial dip, otherwise known as the 'afternoon slump'.",
     "Alarms have a marked effect of cardiovascular stress. Try an app that wakes you up gradually.",
     "Pre-Industral sleep was characterized by co-sleeping, biphasic sleep, and lack of an enforced wakeup time.",
     "Sleep debt is a real thing.",
@@ -64,7 +64,6 @@ var quote = [
     "Individuals on 4 hours of sleep are as impaired in task performance as when they are legally drunk.",
     "Alcohol dramatically amplifies driving error impact of sleep loss by almost 3x.",
     ];
-    ];
 
 function getRandomArbitrary(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
@@ -92,7 +91,6 @@ $(".quote").click(function (){
      }
     $(".title").css('font-size', '60px');
     $(".title").css('top', '50px');
-    $(".quote").css('margin-top', '25px');
 });
 
 });

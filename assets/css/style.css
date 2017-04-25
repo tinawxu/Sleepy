@@ -1,6 +1,6 @@
 a{
-  color:white;
-  text-decoration: none;  
+	color:white;
+	text-decoration: none;	
 }
 head, body {
   margin: 0;
@@ -10,54 +10,54 @@ head, body {
 }
 
 body, html {
-  background: -webkit-linear-gradient(#000B4D, #000833);
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  color: #fff;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
+	background: -webkit-linear-gradient(#000B4D, #000833);
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	width: 100%;
+	height: 100%;
 }
 /*Landing Page*/
 
 
 .title{
-  font-size: 150px;
-  font-family: 'Abril Fatface';
-  transition: all 0.7s;
-  margin-left: 50%;
-  margin-top: 50px;
-  transform: translateX(-50%);
-  margin-right: 0;
-  display: inline-block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 150px;
+	font-family: 'Abril Fatface';
+	top: 200px;
+	transition: all 0.7s;
 }
 
 .arrow{
-  width: 225px;
-  margin-top: 10px;
-  margin-left: 50px;
+	width: 225px;
+	margin-top: 10px;
+	margin-left: 50px;
 }
 
 .quote-generator{
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+	/* margin:50px; */
+	position: relative;
+	width: 100%;
+	height: 100%;
 }
 
 .quote {
   background-color: transparent;
   border-style: none;
+  /* width: 500px; */
   color: #fff;
   font-family: 'Lato';
   font-weight: 500;
   padding: 15px 25px;
   background: #2196f3;
   display: inline-block;
+  position: absolute;
   border-radius: 10px;
-  margin-left: 50%;
+  bottom: 100px;
+  left: 50%;
   transform: translateX(-50%);
-  margin-top: 100px;
 }
 .quote a {
   /* margin-left: 50px; */
@@ -72,41 +72,41 @@ body, html {
 }
 
 .quote-container{
-  max-width: 100%;
-  margin-left: calc(50% - 550px);
-  margin-top: 150px;
-  -webkit-transform: translateY(-50%);
-  text-align: left;
-  font-family: 'Lato';
-  font-weight: 400;
-  font-size: 2.5em;
-  display: none;
-  padding: 0 25px;
+	position: absolute;
+    width: 1100px;
+    left: calc(50% - 550px);
+	top: 50%;
+	transform: translate(-50%);
+	-webkit-transform: translateY(-50%);
+    text-align: left;
+	font-family: 'Lato';
+	font-weight: 400;
+	font-size: 50px;
+	display: none;
 }
 
 .learn-more {
-  /* position: absolute; */
-  width: 1100px;
-  margin-left: calc(50% - 550px);
-  top: 475px;
-  transform: translate(-50%);
-  -webkit-transform: translateY(-50%);
-  text-align: left;
-  font-family: 'Lato';
-  font-weight: 400;
-  font-size: 28px;
-  margin-top: 50px;
+	position: absolute;
+	width: 1100px;
+	left: calc(50% - 550px);
+	top: 475px;
+	transform: translate(-50%);
+	-webkit-transform: translateY(-50%);
+	text-align: left;
+	font-family: 'Lato';
+	font-weight: 400;
+	font-size: 28px;
 }
 
 
 .action{
 }
 .hover{
-  opacity: 0.6;
+	opacity: 0.6;
 }
 .text{
-  text-align: center;
-  font-size: 25px;
+	text-align: center;
+	font-size: 25px;
 }
 button{
     position: relative;
