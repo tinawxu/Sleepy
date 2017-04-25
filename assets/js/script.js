@@ -59,7 +59,7 @@ var quote = [
     "In lab settings, the longer animals stayed awake, the more they ate. Yet the more they ate while remaining awake, the more weight they lost. The point at which food intake began increasing was also the point when thermoregulation ability failed.",
     "There's a basis to the idea of 'beauty sleep'. Individuals were rated to look less attractive by third parties when they were sleep deprived compared to when they recieved normal sleep.",
     "Tied drivers are as dangerous as drunk drivers due to their functional impairment from lack of sleep.",
-    "Prolonged partial sleep deprivation can be as devastating as total sleep deprivation. Sadly, in lab settins, chronically sleep deprived individuals do not return to their baseline level of cognitive function even with ample recovery sleep.",
+    "Prolonged partial sleep deprivation can be as devastating as total sleep deprivation. Sadly, in lab settings, chronically sleep deprived individuals do not return to their baseline level of cognitive function even with ample recovery sleep.",
     "Most individuals can maintain solid cognitive performance for up to 16 hours of wakefulness.",
     "Individuals on 4 hours of sleep are as impaired in task performance as when they are legally drunk.",
     "Alcohol dramatically amplifies driving error impact of sleep loss by almost 3x.",
