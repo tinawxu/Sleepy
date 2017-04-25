@@ -47,7 +47,7 @@ $(".quote").click(function (){
     $(".quote-container").fadeIn();
     counter=counter+1;
    $(".arrow").hide();
-      var line = quote[getRandomArbitrary(0,44)];
+      var line = quote[getRandomArbitrary(0,16)];
    $(".quote-container").text(line);
    if (counter==2) {
        $(".footer").fadeIn().delay(1000);
